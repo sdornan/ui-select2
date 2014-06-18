@@ -15,11 +15,11 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // Dependencies
-      'bower_components/jquery/jquery.js',
+      'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
       'bower_components/angular-mocks/angular-mocks.js',
       'bower_components/select2/select2.js',
-      
+
       // Source Code
       'src/select2.js',
 
@@ -30,7 +30,7 @@ module.exports = function(config) {
 
     // list of files to exclude
     exclude: [
-      
+
     ],
 
 
